@@ -8,17 +8,14 @@ A simple web application that allows users to submit data through a form, save i
 - Form for submitting user data
 - Real-time table display of all users
 - RESTful API for data operations
-- H2 in-memory database for data storage
 - Error handling and user feedback
 
 ## Technical Stack
 
 - Core Java for backend
-- H2 Database for data storage
 - Bootstrap 5 for UI components
 - jQuery for DOM manipulation
 - AJAX for asynchronous API calls
-- HikariCP for connection pooling
 - Jackson for JSON processing
 
 ## Project Structure
