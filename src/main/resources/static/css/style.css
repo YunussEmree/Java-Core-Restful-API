@@ -1,0 +1,53 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.spinner-border {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+    .card-body {
+        padding: 15px;
+    }
+}
+
+@keyframes highlightRow {
+    from { background-color: #d4edda; }
+    to { background-color: transparent; }
+}
+
+.highlight-new {
+    animation: highlightRow 2s ease-out;
+} 
